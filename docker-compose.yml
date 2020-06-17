@@ -1,0 +1,13 @@
+version: '2.1'
+services:
+  frontend:
+    build: ./
+    volumes:
+      - .:/var/www
+      - ./start.sh:/usr/bin/start.sh
+    entrypoint: /bin/bash
+    command: start.sh
+    environment:
+      - ENV
+    ports:
+      - "127.0.0.1:8990:3000"
