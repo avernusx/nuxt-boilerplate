@@ -29,7 +29,7 @@
     "@nuxtjs/style-resources": "1.0.0",
     "axios": "0.18.0",
     "fs": "",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "node-sass": "4.13.1",
     "nuxt-sass-resources-loader": "2.0.2",
     "sass-loader": "7.3.1",
